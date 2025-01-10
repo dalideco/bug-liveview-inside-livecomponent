@@ -115,13 +115,13 @@ defmodule Example.NestedLiveview do
         + {@test_assign}
       </button>
 
-      <%!-- Uncomment for parent live component to stop working --%>
+      <%!-- UNCOMMENT: for parent live component to stop working --%>
       <.live_component
        id="grand-child-live-component"
        module={Example.GrandChildLiveComponent}
        />
 
-      <%!-- Uncomment for child live component to stop working --%>
+      <%!-- UNCOMMENT: for child live component to stop working --%>
        <%!-- <.live_component
        id="grand-child-live-component-1"
        module={Example.GrandChildLiveComponent}
